@@ -1,0 +1,8 @@
+#H2 configuration
+spring:
+  h2:
+    console:
+      enabled: true
+  cloud:
+    refresh:
+      enabled: false
