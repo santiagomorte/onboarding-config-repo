@@ -10,3 +10,6 @@ spring:
 external:
   product:
     url: http://localhost:8001/products
+oauth2:
+  security:
+    enabled: false

@@ -14,3 +14,8 @@ management:
     export:
       prometheus:
         enabled: true
+security:
+  oauth2:
+    resource:
+      jwt:
+        keyValue: "AmPkxJZf=YH%uVprWueg23s^&4w5r_5H5_$RCznr"
