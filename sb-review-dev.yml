@@ -6,3 +6,7 @@ spring:
   cloud:
     refresh:
       enabled: false
+#External Services configuration
+external:
+  product:
+    url: http://localhost:8001/products
