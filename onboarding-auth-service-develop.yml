@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: onboarding-auth-service
+
+server:
+  port: ${SERVICE_PORT:8080}   # HTTP (Tomcat) port
+
+auth:
+  service:
+    client: "onboarding_client"
+    secret: "5yynnKSq4ERW23cJ"
+    scope: "ONBOARDING"
+
+onboarding:
+  client:
+      user: "onboarding"
+      password: "mxTSms6aeQptCzCJ"
+  admin:
+      user: "onboarding_admin"
+      password: "nyTSms6aeQptCzDK"
+
+jwt:
+  singning:
+    key: "AmPkxJZf=YH%uVprWueg23s^&4w5r_5H5_$RCznr"
