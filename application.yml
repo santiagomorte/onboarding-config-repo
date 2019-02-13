@@ -1,6 +1,3 @@
-# Generic configuration to be applied to all services
-
-  #Metrics related configurations
 management:
   endpoint:
     metrics:
@@ -21,7 +18,3 @@ management:
     cloud:
       refresh:
         enabled: false
-  Message Input
-
-
-  Message Anuradha Sinha
