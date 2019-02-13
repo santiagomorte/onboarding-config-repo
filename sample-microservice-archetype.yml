@@ -23,5 +23,12 @@ spring:
   active: local
 product:
  url: http://localhost:8090
+feign:
+  hystrix:
+    enabled: false
+  client:
+    default:
+      connect-timeout: 10000
+      read-timeout: 10000 
 
   
