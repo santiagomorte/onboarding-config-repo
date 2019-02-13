@@ -13,5 +13,9 @@ metrics:
   prometheus:
    enabled: true
 spring:
- spring.h2.console.enabled=true	
- spring.cloud.refresh.enabled=false
+ h2:
+  console:
+   enabled: true
+ cloud:
+  refresh:
+   enabled: true
