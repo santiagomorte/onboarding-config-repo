@@ -21,4 +21,7 @@ spring:
    enabled: false
  profiles:
   active: local
+product:
+ url: http://localhost:8090
+
   
