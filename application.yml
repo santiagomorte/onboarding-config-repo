@@ -1,1 +1,27 @@
 # Generic configuration to be applied to all services
+
+  #Metrics related configurations
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+    web:
+      exposure:
+        include: “*”
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+  spring:
+    h2:
+      console:
+        enabled: true
+    cloud:
+      refresh:
+        enabled: false
+  Message Input
+
+
+  Message Anuradha Sinha
