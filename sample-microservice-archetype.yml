@@ -19,3 +19,6 @@ spring:
  cloud:
   refresh:
    enabled: true
+ profiles:
+  active: local
+  
