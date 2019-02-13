@@ -12,3 +12,6 @@ metrics:
  export:
   prometheus:
    enabled: true
+spring:
+ spring.h2.console.enabled=true	
+ spring.cloud.refresh.enabled=false
